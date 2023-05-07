@@ -482,6 +482,8 @@ public:
 	bool copy();
 	bool paste();
 
+	bool copyForConsolePrint();
+
 	void displayedLineRangeChanged(Range<int> newRange) override;
 
 	void translateToEnsureCaretIsVisible();
